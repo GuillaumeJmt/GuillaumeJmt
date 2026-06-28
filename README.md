@@ -24,7 +24,7 @@ usable, reproducible and understandable.
 - Fortran (legacy code in research labs)
 
 **HPC & Linux**
-- Slurm: job submission, admin, partitions, QOS, sacct
+- Slurm: job submission, sacct
 - Lmod: module system, modulefile creation (Lua)
 - Apptainer: container build and usage for HPC
 - Bash scripting: set -euo pipefail, trap, logging
