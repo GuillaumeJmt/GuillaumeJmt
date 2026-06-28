@@ -2,8 +2,8 @@
 
 Computational chemist transitioning into HPC support engineering.
 
-Physical Chemistry - Computational Chemistry - Computational Science.
-Quantum chemistry, scientific computing.
+Physical Chemistry - Astrochemistry - Computational Science.
+Molecular dynamics, quantum chemistry, spectroscopy.
 13 years university teaching experience.
 Real HPC user: Gaussian, NWChem, Molpro, Slurm, Linux.
 
