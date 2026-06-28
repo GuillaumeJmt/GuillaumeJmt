@@ -20,7 +20,6 @@ usable, reproducible and understandable.
 
 **Scientific computing**
 - Quantum chemistry: Gaussian, NWChem, Molpro
-- Molecular dynamics: GROMACS concepts
 - Scientific Python: numpy, scipy, pandas, matplotlib
 - Fortran (legacy code in research labs)
 
