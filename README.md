@@ -42,7 +42,7 @@ usable, reproducible and understandable.
 | Repo | Description |
 |------|-------------|
 | [hpc-job-templates](https://github.com/GuillaumeJmt/hpc-job-templates) | Annotated Slurm scripts for Gaussian, MPI, arrays |
-| [lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) | Lmod modulefile for NWChem 7.3.0 - validated calculation |
+| [lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) | Lmod modulefile for NWChem 7.3.0 - reproducible calculation |
 | [slurm-efficiency-analyzer](https://github.com/GuillaumeJmt/slurm-efficiency-analyzer) | Python tool to detect CPU and memory waste in Slurm jobs |
 | [mpi-scaling-benchmark](https://github.com/GuillaumeJmt/mpi-scaling-benchmark) | MPI strong scaling benchmark with mpi4py |
 | [bash-hpc-toolkit](https://github.com/GuillaumeJmt/bash-hpc-toolkit) | Defensive bash scripts for HPC support |
@@ -55,9 +55,9 @@ usable, reproducible and understandable.
 
 ---
 
-## Validated results
+## Reproducible results
 
-- NWChem 7.3.0 - H2O HF/STO-3G: -74.962946671090 Hartree
+- NWChem 7.3.0 - H2O HF/STO-3G: -74.962946671090 Ha (deterministic result for this exact input; reproduced to all digits on every correct run, not a literature value)
 - Apptainer container: numpy 2.4.6, scipy 1.17.1, pandas 3.0.3
 
 ---
