@@ -9,10 +9,17 @@ Real HPC user: Gaussian, NWChem, Molpro, Slurm, Linux.
 
 ---
 
-## What I do
+## Where I'm coming from
 
-I help researchers make complex computational workflows
-usable, reproducible and understandable.
+I'm a computational chemist moving into HPC support. For ~7 years I was the
+researcher on the cluster : running Gaussian / NWChem / Molpro on CECI
+infrastructure, and debugging SCF convergence failures, memory overflows and
+MPI issues under deadline. For 13 years I've taught at university, which is
+mostly the work of making hard technical things clear to people who don't yet
+get them.
+
+That's the angle I bring to support: I've been the user in the queue, and I can
+explain.
 
 ---
 
@@ -42,7 +49,7 @@ usable, reproducible and understandable.
 | Repo | Description |
 |------|-------------|
 | [hpc-job-templates](https://github.com/GuillaumeJmt/hpc-job-templates) | Annotated Slurm scripts for Gaussian, MPI, arrays |
-| [lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) | Lmod modulefile for NWChem 7.3.0 - reproducible calculation |
+| [lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) | Lmod modulefile demo for NWChem 7.3.0 (personal install) |
 | [slurm-efficiency-analyzer](https://github.com/GuillaumeJmt/slurm-efficiency-analyzer) | Python tool to detect CPU and memory waste in Slurm jobs |
 | [mpi-scaling-benchmark](https://github.com/GuillaumeJmt/mpi-scaling-benchmark) | MPI strong scaling benchmark with mpi4py |
 | [bash-hpc-toolkit](https://github.com/GuillaumeJmt/bash-hpc-toolkit) | Defensive bash scripts for HPC support |
