@@ -12,7 +12,7 @@ Real HPC user: Gaussian, NWChem, Molpro, Slurm, Linux.
 ## Where I'm coming from
 
 I'm a computational chemist moving into HPC support. For ~7 years I was the
-researcher on the cluster : running Gaussian / NWChem / Molpro on CECI
+researcher on the cluster — running Gaussian / NWChem / Molpro on CECI
 infrastructure, and debugging SCF convergence failures, memory overflows and
 MPI issues under deadline. For 13 years I've taught at university, which is
 mostly the work of making hard technical things clear to people who don't yet
