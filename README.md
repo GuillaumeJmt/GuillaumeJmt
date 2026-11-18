@@ -1,82 +1,91 @@
-# Guillaume J.
+# Guillaume JMT
 
-Computational chemist transitioning into HPC support engineering.
+**Business Analysis · Data Analytics · Applied AI & Digital Transformation**
 
-Physical Chemistry - Astrochemistry - Computational Science.
-Molecular dynamics, quantum chemistry, spectroscopy.
-13 years university teaching experience.
-Real HPC user: Gaussian, NWChem, Molpro, Slurm, Linux.
+Brussels, Belgium
 
----
-
-## Where I'm coming from
-
-I'm a computational chemist moving into HPC support. For ~7 years I was the
-researcher on the cluster — running Gaussian / NWChem / Molpro on CECI
-infrastructure, and debugging SCF convergence failures, memory overflows and
-MPI issues under deadline. For 13 years I've taught at university, which is
-mostly the work of making hard technical things clear to people who don't yet
-get them.
-
-That's the angle I bring to support: I've been the user in the queue, and I can
-explain.
+I connect business processes, data and code. I coordinate digital transformation
+initiatives within an educational non-profit, translating operational needs into
+data workflows, reporting tools and practical automation. Before that, I spent seven years in doctoral
+research in physical and computational chemistry, writing the Python, Bash and
+Fortran workflows that ran my simulations on Linux clusters.
 
 ---
 
-## Technical background
+## Professional experience
 
-**Scientific computing**
-- Quantum chemistry: Gaussian, NWChem, Molpro
-- Scientific Python: numpy, scipy, pandas, matplotlib
-- Fortran (legacy code in research labs)
+This work belongs to my employer. It is described here, not published.
 
-**HPC & Linux**
-- Slurm: job submission, sacct
-- Lmod: module system, modulefile creation (Lua)
-- Apptainer: container build and usage for HPC
-- Bash scripting: set -euo pipefail, trap, logging
-- Linux: Ubuntu, process management, filesystem, SSH
+- **Business analysis:** requirements catalogue and option analysis for a CRM;
+  process mapping; test plan and go/no-go criteria prepared for a platform launch
+  planned in 2027
+- **Data and reporting:** a reporting pipeline from CRM exports to Power BI
+  (PowerShell, Power Query), in use, with repeatable transformations and consistency checks
+- **Internal tools:** a multi-criteria matching tool in Python that proposes
+  tutor-to-group assignments as decision support; communication workflows in
+  JavaScript (Google Apps Script); design of an LLM-assisted step with mandatory
+  human review
+- **Coordination:** digital roadmap and prioritisation; day-to-day coordination of a
+  programme involving more than 400 people
 
-**Tools**
-- Git, GitHub
-- Python automation: argparse, jinja2, paramiko, psutil, rich
-- MPI: mpi4py, parallel scaling methodology
+## Public projects
 
----
+<!--
+Future sections, to be added only when a project is published, documented
+and reproducible (README with problem, method, results and limitations):
 
-## HPC Portfolio
+### Data analytics
+### Machine learning
+### Applied AI and automation
 
-| Repo | Description |
-|------|-------------|
-| [hpc-job-templates](https://github.com/GuillaumeJmt/hpc-job-templates) | Annotated Slurm scripts for Gaussian, MPI, arrays |
-| [lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) | Lmod modulefile demo for NWChem 7.3.0 (personal install) |
-| [slurm-efficiency-analyzer](https://github.com/GuillaumeJmt/slurm-efficiency-analyzer) | Python tool to detect CPU and memory waste in Slurm jobs |
-| [mpi-scaling-benchmark](https://github.com/GuillaumeJmt/mpi-scaling-benchmark) | MPI strong scaling benchmark with mpi4py |
-| [bash-hpc-toolkit](https://github.com/GuillaumeJmt/bash-hpc-toolkit) | Defensive bash scripts for HPC support |
-| [jobscript-generator](https://github.com/GuillaumeJmt/jobscript-generator) | CLI tool to generate Slurm jobscripts from templates |
-| [apptainer-scientific-container](https://github.com/GuillaumeJmt/apptainer-scientific-container) | Apptainer container for scientific Python |
-| [hpc-monitoring-dashboard](https://github.com/GuillaumeJmt/hpc-monitoring-dashboard) | Real-time terminal dashboard for HPC node monitoring |
-| [gpu-hpc-toolkit](https://github.com/GuillaumeJmt/gpu-hpc-toolkit) | GPU support notes and cluster-convention jobscripts (learning, no GPU hardware) |
-| [slurm-admin-cheatsheet](https://github.com/GuillaumeJmt/slurm-admin-cheatsheet) | Slurm administration command reference |
-| [hpc-lab-journal](https://github.com/GuillaumeJmt/hpc-lab-journal) | Technical diary of real HPC problems and solutions |
+Same table format: | Project | What it shows |
+-->
 
----
+### Scientific computing and Linux
 
-## Reproducible results
+Built on a single-node Slurm environment in a Linux VM.
 
-- NWChem 7.3.0 - H2O HF/STO-3G: -74.962946671090 Ha (deterministic result for this exact input; reproduced to all digits on every correct run, not a literature value)
-- Apptainer container: numpy 2.4.6, scipy 1.17.1, pandas 3.0.3
+| Project | What it shows |
+|---|---|
+| [slurm-efficiency-analyzer](https://github.com/GuillaumeJmt/slurm-efficiency-analyzer) | Parses job-accounting data, flags CPU and memory waste and failed jobs, generates an HTML report. Uses simulated data |
+| [mpi-scaling-benchmark](https://github.com/GuillaumeJmt/mpi-scaling-benchmark) | Strong-scaling benchmark with mpi4py and an explicit measurement methodology |
+| [hpc-lab-journal](https://github.com/GuillaumeJmt/hpc-lab-journal) | Eleven real incidents, each documented by symptom, cause and fix |
+| [bash-hpc-toolkit](https://github.com/GuillaumeJmt/bash-hpc-toolkit) | Five defensive Bash scripts, checked by ShellCheck in GitHub Actions |
+| [jobscript-generator](https://github.com/GuillaumeJmt/jobscript-generator) | Command-line generator of Slurm job scripts from Jinja2 templates |
+| [hpc-job-templates](https://github.com/GuillaumeJmt/hpc-job-templates) | Annotated Slurm job scripts based on research use of academic clusters |
 
----
+More, smaller repositories:
+[lmod-demo-environment](https://github.com/GuillaumeJmt/lmod-demo-environment) ·
+[apptainer-scientific-container](https://github.com/GuillaumeJmt/apptainer-scientific-container) ·
+[hpc-monitoring-dashboard](https://github.com/GuillaumeJmt/hpc-monitoring-dashboard) ·
+[gpu-hpc-toolkit](https://github.com/GuillaumeJmt/gpu-hpc-toolkit) (simulated data) ·
+[slurm-admin-cheatsheet](https://github.com/GuillaumeJmt/slurm-admin-cheatsheet)
 
-## Environment
+## Tools
 
-All projects developed on Apple M1 (ARM64) with Lima VM Ubuntu 24.04.
-Realistic HPC environment without a physical cluster.
+| Area | Used in work, research or private projects | Shown in public repositories |
+|---|---|---|
+| Languages | Python, JavaScript, TypeScript, PowerShell, Bash, Fortran, MATLAB | Python, Bash |
+| Python | pandas, NumPy, Matplotlib | argparse, Jinja2, psutil, rich, mpi4py, NumPy |
+| Data | Power Query, Power BI, Excel | CSV processing, HTML reporting |
+| Systems | Linux (Ubuntu), Docker, SSH, Slurm on academic clusters | Slurm, Lmod (one Lua modulefile), Apptainer |
+| Engineering | Git, Playwright (private repository) | Git, GitHub Actions, ShellCheck |
 
----
+## Scientific computing background
 
-## Contact
+- Seven years of doctoral research: density functional theory, molecular dynamics
+  and reaction cross-sections, with NWChem, Gaussian and Molpro
+- Batch workflows on Linux clusters with Slurm, including diagnosis of failed runs
+  from their logs
+- About eleven years of university teaching in chemistry
 
-Open to HPC support, research computing, and scientific IT positions.
-Brussels, Belgium.
+## Currently learning
+
+These skills are in progress. Projects will be published here once they are
+documented and reproducible.
+
+- **Machine learning:** scikit-learn, model evaluation, reproducible experiments
+- **Deep learning:** PyTorch on a local GPU workstation
+- **MLOps:** experiment tracking, packaging, containerised training on a home-lab Linux server
+- **Analytics:** SQL (window functions, CTEs) on open datasets
+- **Applied AI:** local language models and retrieval-augmented generation with human review
