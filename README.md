@@ -1,4 +1,4 @@
-# Guillaume JMT
+# Guillaume
 
 **Business Analysis · Data Analytics · Applied AI & Digital Transformation**
 
